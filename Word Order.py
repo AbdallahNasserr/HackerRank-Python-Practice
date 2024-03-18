@@ -10,5 +10,6 @@ for i in arr:
         dictt[i] = 1
     else:
         dictt[i] = dictt[i] +1
+print(len(dictt))
 for i,j in dictt.items():
-    print(i,j)
+    print(j,end =  ' ')
